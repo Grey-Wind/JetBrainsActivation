@@ -15,6 +15,21 @@ public:
     JetBrainsActivation(QWidget *parent = nullptr);
     ~JetBrainsActivation();
 
+private slots:
+    void on_CLion_clicked();
+
+    void on_DataGrip_clicked();
+
+    void on_GoLand_clicked();
+
+    void on_IDEA_clicked();
+
+    void on_PhpStorm_clicked();
+
+    void on_PyCharm_clicked();
+
+    void on_WebStorm_clicked();
+
 private:
     Ui::JetBrainsActivation *ui;
 };

@@ -1,0 +1,3 @@
+cd /d D:\project\JetBrainsActivation\build
+
+windeployqt JetBrainsActivation.exe

@@ -32,8 +32,8 @@ public:
     QPushButton *PhpStorm;
     QPushButton *PyCharm;
     QPushButton *WebStorm;
-    QLabel *label;
-    QLabel *label_2;
+    QLabel *warning1;
+    QLabel *warning2;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -71,12 +71,12 @@ public:
         WebStorm = new QPushButton(centralwidget);
         WebStorm->setObjectName("WebStorm");
         WebStorm->setGeometry(QRect(10, 110, 93, 29));
-        label = new QLabel(centralwidget);
-        label->setObjectName("label");
-        label->setGeometry(QRect(10, 140, 261, 20));
-        label_2 = new QLabel(centralwidget);
-        label_2->setObjectName("label_2");
-        label_2->setGeometry(QRect(10, 160, 291, 20));
+        warning1 = new QLabel(centralwidget);
+        warning1->setObjectName("warning1");
+        warning1->setGeometry(QRect(10, 140, 261, 20));
+        warning2 = new QLabel(centralwidget);
+        warning2->setObjectName("warning2");
+        warning2->setGeometry(QRect(10, 160, 291, 20));
         JetBrainsActivation->setCentralWidget(centralwidget);
         menubar = new QMenuBar(JetBrainsActivation);
         menubar->setObjectName("menubar");
@@ -102,8 +102,8 @@ public:
         PhpStorm->setText(QCoreApplication::translate("JetBrainsActivation", "PhpStorm", nullptr));
         PyCharm->setText(QCoreApplication::translate("JetBrainsActivation", "PyCharm", nullptr));
         WebStorm->setText(QCoreApplication::translate("JetBrainsActivation", "WebStorm", nullptr));
-        label->setText(QCoreApplication::translate("JetBrainsActivation", "Warning:If you download these app", nullptr));
-        label_2->setText(QCoreApplication::translate("JetBrainsActivation", "from toolbox, it can't activate correctly.", nullptr));
+        warning1->setText(QCoreApplication::translate("JetBrainsActivation", "Warning:If you download these app", nullptr));
+        warning2->setText(QCoreApplication::translate("JetBrainsActivation", "from toolbox, it can't activate correctly.", nullptr));
     } // retranslateUi
 
 };

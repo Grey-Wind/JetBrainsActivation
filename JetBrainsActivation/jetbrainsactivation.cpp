@@ -23,36 +23,36 @@ void JetBrainsActivation::on_CLion_clicked()
 
 void JetBrainsActivation::on_DataGrip_clicked()
 {
-    system("start /ActivationCode/");
+    system("start DataGrip.vbs");
 }
 
 
 void JetBrainsActivation::on_GoLand_clicked()
 {
-    system("start /ActivationCode/");
+    system("start GoLand.vbs");
 }
 
 
 void JetBrainsActivation::on_IDEA_clicked()
 {
-    system("start /ActivationCode/");
+    system("start IDEA.vbs");
 }
 
 
 void JetBrainsActivation::on_PhpStorm_clicked()
 {
-    system("start /ActivationCode/");
+    system("start PhpStorm.vbs");
 }
 
 
 void JetBrainsActivation::on_PyCharm_clicked()
 {
-    system("start /ActivationCode/");
+    system("start PyCharm.vbs");
 }
 
 
 void JetBrainsActivation::on_WebStorm_clicked()
 {
-    system("start /ActivationCode/");
+    system("start WebStorm.vbs");
 }
 

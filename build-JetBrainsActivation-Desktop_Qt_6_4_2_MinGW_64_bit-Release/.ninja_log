@@ -1,0 +1,9 @@
+# ninja log v5
+1	785	6949578539116468	JetBrainsActivation_autogen/timestamp	f676593708cadff4
+1	785	6949578539116468	JetBrainsActivation_autogen/mocs_compilation.cpp	f676593708cadff4
+1	785	6949578539116468	D:/project/JetBrainsActivation/build-JetBrainsActivation-Desktop_Qt_6_4_2_MinGW_64_bit-Release/JetBrainsActivation_autogen/timestamp	f676593708cadff4
+1	785	6949578539116468	D:/project/JetBrainsActivation/build-JetBrainsActivation-Desktop_Qt_6_4_2_MinGW_64_bit-Release/JetBrainsActivation_autogen/mocs_compilation.cpp	f676593708cadff4
+796	2565	6949578558560441	CMakeFiles/JetBrainsActivation.dir/main.cpp.obj	8d3c0e1555a650d1
+786	2575	6949578558670153	CMakeFiles/JetBrainsActivation.dir/JetBrainsActivation_autogen/mocs_compilation.cpp.obj	cb4c323e6dd9b2de
+807	2734	6949578560245913	CMakeFiles/JetBrainsActivation.dir/jetbrainsactivation.cpp.obj	5b87cf23c0e5f62f
+2734	2927	6949578562149065	JetBrainsActivation.exe	3ab525ddc12f1dd0
